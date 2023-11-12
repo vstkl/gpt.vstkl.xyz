@@ -11,10 +11,15 @@ export default function Home() {
       </Head>
 
       <main className="main">
-        <p className="description">Click the link below acces LINUX_GURU:</p>
+        <p className="description">Click the link below access LINUX_GURU:</p>
         <a href="https://chat.openai.com/g/g-mpNdRvlgN-steve-linux-kernel-guru" className="link">
           Continue to openAI 
         </a>
+        <div>
+          <a href="https://github.com/vstkl" className='github'>
+          vstkl
+          </a>
+</div>
       </main>
     </div>
   )

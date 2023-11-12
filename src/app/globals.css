@@ -14,10 +14,14 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  margin:auto;
+  height: 100vh;
   background-image: url('background.png'); /* Replace with your image filename */
-  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: absolute;
+  background-position: center;
+  background-size: auto;
+  min-width: 10vw;
 
 }
 
@@ -72,3 +76,28 @@ body {
   background-color: #00ff00;
   color: #000;
 }
+
+.github {
+  display: inline-block;
+  background-image: url('github-mark-white.png');
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 15px 25px;
+  padding-left:10vh;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 4vh;
+  height: fit-content;
+  font-family: 'Courier New', monospace;
+  border-radius: 5px;
+  border-top-left-radius: 5vh;
+  border-bottom-left-radius: 5vh;
+  margin-top: 20px;
+}
+.github:hover {
+  background-color: #00ff00;
+  background-image: url('github-mark.png');
+  color: #000;
+}
+
