@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className="main">
         <p className="description">Click the link below access LINUX_GURU:</p>
-        <a href="https://chat.openai.com/g/g-mpNdRvlgN-steve-linux-kernel-guru" className="link">
+        <a href="https://chat.openai.com/g/g-mpNdRvlgN-linux-guru" className="link">
           Continue to openAI 
         </a>
         <div>
