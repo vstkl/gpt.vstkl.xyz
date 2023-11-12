@@ -47,7 +47,7 @@ body {
   font-family: 'Courier New', monospace;
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 1vh;
   margin: 10px;
 }
 
@@ -57,7 +57,7 @@ body {
   font-family: 'Courier New', monospace;
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 0.5vh;
   margin: 10px;
 }
 
@@ -70,7 +70,7 @@ body {
   font-size: 1.5rem;
   font-family: 'Courier New', monospace;
   border: 1px solid #00ff00;
-  border-radius: 5px;
+  border-radius: 0.5vh;
   margin-top: 20px;
 }
 
@@ -92,6 +92,7 @@ body {
   font-size: 4vh;
   height: 4vh;
   font-family: 'Courier New', monospace;
+  border-radius: 0.5vh;
   border-top-left-radius: 5vh;
   border-bottom-left-radius: 5vh;
 }
