@@ -16,6 +16,7 @@ export default function Home() {
           Continue to openAI 
         </a>
         <div>
+          <a className='gh-pre'>by:</a>
           <a href="https://github.com/vstkl" className='github'>
           vstkl
           </a>

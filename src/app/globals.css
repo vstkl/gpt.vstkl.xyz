@@ -17,9 +17,11 @@ body {
   margin:auto;
   height: 100vh;
   background-image: url('background.png'); /* Replace with your image filename */
+  background-blend-mode: darken;
   background-repeat: no-repeat;
   background-attachment: absolute;
   background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
   background-size: auto;
   min-width: 10vw;
 
@@ -83,17 +85,15 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 15px 25px;
+  padding: 2vh 3vh;
   padding-left:10vh;
   color: #ffffff;
   text-decoration: none;
   font-size: 4vh;
-  height: fit-content;
+  height: 4vh;
   font-family: 'Courier New', monospace;
-  border-radius: 5px;
   border-top-left-radius: 5vh;
   border-bottom-left-radius: 5vh;
-  margin-top: 20px;
 }
 .github:hover {
   background-color: #00ff00;
@@ -101,3 +101,16 @@ body {
   color: #000;
 }
 
+.gh-pre {
+   display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 15px 0;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 4vh;
+  height: fit-content;
+  font-family: 'Courier New', monospace;
+  border-radius: 5px;
+  margin-top: 20px;
+}
